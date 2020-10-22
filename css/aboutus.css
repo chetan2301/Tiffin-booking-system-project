@@ -1,0 +1,15 @@
+﻿body {
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h2{margin-bottom:  25px;}
+.img-wrap{width: 120%;
+    height: 700px;
+}
+.img-wrap img { width: 65%;
+padding:10px;border-radius:50%;box-shadow: 0 0 10px #999999;
+    height: 591px;
+}

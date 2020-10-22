@@ -1,0 +1,21 @@
+import java.util,*;
+import java.io.*;
+public class Employee
+{
+	int empid;
+	String epname;
+}
+Employee(int id,String name)
+{	
+	this.empid=id;
+	this.empname=name;
+}
+void info(){
+System.out.println("id: "+empid+"name: "+empname);
+}
+public staic void main(String args[])
+{
+Employee obj1=new Employee(1111,"alon");
+Employee obj2=new Employee(2222,"santy");
+obj
+}

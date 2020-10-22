@@ -1,0 +1,69 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+
+}
+.containers{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.containers .box{
+    text-align: center;
+}
+.containers .box .icon .fa
+{
+   font-size: 80px;
+   cursor: pointer;
+}
+.containers .box .icon h3,
+.containers .box .icon h4
+{
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    margin: 0;
+    padding: 2px 5px;
+    font-size: 24px;
+}
+.containers .box .icon h4
+{
+    font-weight: 600;
+    margin: 5px 0;
+    font-style: 30px;
+}
+.containers .box .icon h3:before,
+.containers .box .icon h4:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: #00bcd4;
+    transition: 1s;
+}
+.containers .box .icon h4:before
+{
+    left: initial;
+    right: 100%;
+    background: #9c27b0;
+}
+.containers .box .fa:hover ~ h3:before
+
+{
+    left: -100%;
+    display: flex;
+}
+.containers .box .fa:hover ~ h4:before
+{
+     left: initial;
+    right: -100%;
+}
